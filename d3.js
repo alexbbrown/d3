@@ -1715,7 +1715,7 @@
         }
         for (i = -1; ++i < n; ) {
           if (nodeByKeyValue.has(keyValues[i])) {
-            exitNodes[i] = group[i];
+            exitNodes[j++] = group[i];
           }
         }
       } else {
